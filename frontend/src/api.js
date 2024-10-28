@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://kd9mqs-5000.csb.app/api/tasks";
 
 export const getTasks = async () => {
   const response = await fetch(API_URL);
